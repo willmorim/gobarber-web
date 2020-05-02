@@ -8,12 +8,13 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    background: #312e38;
+    background: #312E38;
     color: #FFF;
     -webkit-font-smoothing: antialiased;
   }
   body, input, button {
-    font-family: 16px 'Roboto slab', serif;
+    font-family: 'Roboto slab', serif;
+    font-size: 16px;
   }
 
   h1, h2, h3, h4, h5, h6, strong {
