@@ -46,7 +46,7 @@ const Dashboard: React.FC = () => {
     MonthAvailabilityItem[]
   >([]);
 
-  const [appointments, setAppointments] = useState([]);
+  const [appointments, setAppointments] = useState<Appointment[]>([]);
 
   const handleDateChange = useCallback((day: Date, modifiers: DayModifiers) => {
     if (modifiers.available) {
